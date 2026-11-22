@@ -1,0 +1,33 @@
+{
+  "name": "file-budget",
+  "version": "1.0.0",
+  "description": "Fail the build when files grow past a size limit. Zero dependencies, raw / gzip / brotli sizes, globs, CI-friendly exit codes.",
+  "bin": {
+    "file-budget": "bin/file-budget.js"
+  },
+  "main": "bin/file-budget.js",
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "size",
+    "budget",
+    "bundle-size",
+    "performance",
+    "ci",
+    "gzip",
+    "brotli",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fikazgit/file-budget.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
